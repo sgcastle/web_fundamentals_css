@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main_container{
+    width: 670px;
+    height: 600px;
+    background-color: silver;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(212, 209, 177);
+}
+h1{
+    display: inline-block;
+}
+#header{
+    text-align: center;
+    padding-left: 100px;
+    display: block;
+    padding: 10px;
+}
+.title_images{
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    background-color: white;
+}
+#body img{
+    width: 100px;
+}
+.column{
+    width: 130px;
+    height: 510px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+}
+.square{
+    height: 110px;
+    width: 120px;
+    display: inline-block;
+    border: black solid 3px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 0px 2px 0px;
+}
+.blue .square{
+    background-color: rgb(128, 180, 233);
+}
+.blue img{
+    background-color: white;
+}
+
+.red .square{
+    background-color: rgb(249, 103, 114);
+}
